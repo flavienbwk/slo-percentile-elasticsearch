@@ -86,8 +86,12 @@ Pre-requisite :
     Configure it :
 
     - Name it `50th, 85th, 95th, and 99th percentile latencies for a system`
+    - Set visualization type as _Area stacked_
+    - Set left axis size option to _Logarithmic_
     - Set the horizontal axis with field `datetime` (function _Date histogram_)
     - Add a vertical axis for each of the percentiles : `50th`, `85th`, `95th`, `99th` (function _Percentile_)
+
+    Click the upper right button "Save and return"
 
 4. You're good to watch !
 
