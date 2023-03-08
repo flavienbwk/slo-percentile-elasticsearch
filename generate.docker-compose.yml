@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  generate:
+    container_name: gen_el_apache
+    build:
+      context: ./random-apache-logs
+      dockerfile: Dockerfile
+    command: python /app/gen.py -n 30000 -o CONSOLE

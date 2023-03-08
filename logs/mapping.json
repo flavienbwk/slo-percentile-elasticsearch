@@ -1,0 +1,23 @@
+{
+    "apache_logs_2023": {
+        "mappings": {
+            "properties": {
+                "datetime": {
+                    "type": "date"
+                },
+                "latency": {
+                    "type": "long"
+                },
+                "log": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
